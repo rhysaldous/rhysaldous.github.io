@@ -1,0 +1,32 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, "Times New Roman", serif; line-height: 1.65; color: #111; background: #f7f6f3; }
+a { color: #0b57d0; }
+img { max-width: 100%; height: auto; display: block; }
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.25rem; }
+.site-header { background: #0d1b2a; color: #f4f1ea; padding: 0.85rem 0; }
+.site-header .wrap { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.75rem 1.5rem; }
+.brand { font-family: Georgia, serif; font-size: 1.15rem; color: #fff; text-decoration: none; letter-spacing: 0.02em; }
+nav { font-family: system-ui, sans-serif; font-size: 0.88rem; }
+nav a { color: #d7dde6; text-decoration: none; margin-left: 1rem; }
+nav a:hover { color: #fff; }
+.hero-img { margin: 1.5rem 0 0.25rem; border: 1px solid #ddd; }
+.caption { font-family: system-ui, sans-serif; font-size: 0.8rem; color: #666; margin: 0.4rem 0 1.5rem; }
+h1 { font-size: 1.85rem; line-height: 1.25; margin: 1.4rem 0 0.75rem; }
+.lede { font-size: 1.12rem; color: #333; }
+.kicker { margin: 1.4rem 0 0; font-family: system-ui, sans-serif; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: #555; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+blockquote { margin: 1.25rem 0; padding: 0.75rem 1rem; border-left: 4px solid #111; background: #fff; }
+.note { font-family: system-ui, sans-serif; font-size: 0.92rem; background: #fff; border: 1px solid #ddd; padding: 0.9rem 1rem; }
+.cards { display: grid; gap: 1rem; margin: 1.5rem 0 2rem; }
+.card { display: block; background: #fff; border: 1px solid #ddd; padding: 1rem 1.1rem; text-decoration: none; color: inherit; }
+.card:hover { border-color: #111; }
+.card h2 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+.card p { margin: 0; font-family: system-ui, sans-serif; font-size: 0.9rem; color: #444; }
+.meta { font-family: system-ui, sans-serif; font-size: 0.85rem; color: #666; }
+footer { margin-top: 3rem; padding: 1.5rem 0 3rem; font-family: system-ui, sans-serif; font-size: 0.85rem; color: #555; border-top: 1px solid #ddd; }
+footer a { color: #333; }
+@media (max-width: 640px) {
+  nav a { margin: 0 0.75rem 0 0; }
+  h1 { font-size: 1.45rem; }
+}
